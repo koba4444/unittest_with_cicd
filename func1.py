@@ -2,7 +2,7 @@ def s_sum(l: list) -> int:
     ans = 0
     for i in l:
         ans += int(i)
-    return ans
+    return None if len(l) == 0 else ans
 
 
 if __name__ == "__main__":
